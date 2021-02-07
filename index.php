@@ -1,4 +1,4 @@
-<?php $test = "hello"; ?>
+<?php $test = "mobile hello"; ?>
 
 <!DOCTYPE html>
 <html>
