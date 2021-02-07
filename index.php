@@ -1,3 +1,5 @@
+<?php $test = "hello"; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
