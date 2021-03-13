@@ -1,47 +1,26 @@
-<?php $test = "mobile hello"; ?>
+<?php echo "Testing index page" ?>
+<?php
+const str = "This is a string in PHP make sure you get the bult in functions";
+const arr = "An array is used to store data in a program make sure you know the basics";
+function makeStuff() {
+	return 'call funcition'
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Welcome to Doodle</title>
+if(1 > 2 || 3 == '3') {
+	echo 'Make a list of the things you have to get done'
+}
 
-	<meta name="description" content="Search the web for sites and images.">
-	<meta name="keywords" content="Search engine, doodle, websites">
-	<meta name="author" content="Reece Kenney">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+while(1 < 0) {
+	echo "false statement";
+}
+?>
+<?php 
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+wp_enqueue_script('enter file path for the website');
 
-</head>
-<body>
+?>
+<?php 
 
-	<div class="wrapper indexPage">
-	
+echo 'string';
+echo 1 * 2;
 
-		<div class="mainSection">
-
-			<div class="logoContainer">
-				<img src="assets/images/doodleLogo.png" title="Logo of our site" alt="Site logo">
-			</div>
-
-
-			<div class="searchContainer">
-
-				<form action="search.php" method="GET">
-
-					<input class="searchBox" type="text" name="term" autocomplete="off">
-					<input class="searchButton" type="submit" value="Search">
-
-
-				</form>
-
-			</div>
-
-
-		</div>
-
-
-	</div>
-
-</body>
-</html>
+?>
