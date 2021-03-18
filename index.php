@@ -24,3 +24,4 @@ echo 'string';
 echo 1 * 2;
 
 ?>
+<?php var x = true; ?>
