@@ -26,3 +26,4 @@ echo 1 * 2;
 ?>
 <?php var x = true; ?>
 <?php const modal = document.querySelector('modal');?>
+<?php const login = true; ?>
