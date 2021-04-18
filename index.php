@@ -27,3 +27,11 @@ echo 1 * 2;
 <?php var x = true; ?>
 <?php const modal = document.querySelector('modal');?>
 <?php const login = true; ?>
+<?php while(have_posts()): the_post(); ?>
+<main>
+	<div class="container">
+		<h3>Title</h3>
+		<p>Content Here</p>
+	</div>
+</main>
+<?php endwhile; ?>
