@@ -3,14 +3,16 @@
 const str = "This is a string in PHP make sure you get the bult in functions";
 const arr = "An array is used to store data in a program make sure you know the basics";
 function makeStuff() {
-	return 'call funcition'
+	return 'call funcition';
 
 if(1 > 2 || 3 == '3') {
-	echo 'Make a list of the things you have to get done'
+	echo 'Make a list of the things you have to get done';
+	return true;
 }
 
 while(1 < 0) {
 	echo "false statement";
+	console.log(this);
 }
 ?>
 <?php 
