@@ -2,6 +2,8 @@
 <?php
 const str = "This is a string in PHP make sure you get the bult in functions";
 const arr = "An array is used to store data in a program make sure you know the basics";
+echo 'Hello World';
+$_['GET'];
 function makeStuff() {
 	return 'call funcition';
 
