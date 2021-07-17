@@ -41,5 +41,5 @@ include("includes/includedFiles.php");
 
 <?php
 echo 'hello world';
-$_POST['yellowstone'];
+$_POST['fair'];
 ?>
