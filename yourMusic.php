@@ -38,3 +38,8 @@ include("includes/includedFiles.php");
 	</div>
 
 </div>
+
+<?php
+echo 'hello world';
+$_POST['yellowstone'];
+?>
