@@ -28,7 +28,10 @@ echo 'string';
 echo 1 * 2;
 
 ?>
-<?php var x = true; ?>
+<?php 
+var x = true; 
+echo 'hello world';
+?>
 <?php const modal = document.querySelector('modal');?>
 <?php const login = true; ?>
 <?php while(have_posts()): the_post(); ?>
