@@ -42,3 +42,5 @@ echo 'hello world';
 	</div>
 </main>
 <?php endwhile; ?>
+
+<?php echo 'Hello World :)'; ?>
